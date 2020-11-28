@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "src": "assets/gallery/landscape-1.jpg",
+    "title": "Snowy mountains"
+  },
+  {
+    "id": 2,
+    "src": "assets/gallery/landscape-2.jpg",
+    "title": "Winter lake"
+  },
+  {
+    "id": 3,
+    "src": "assets/gallery/landscape-3.jpg",
+    "title": "Farm field"
+  },
+  {
+    "id": 4,
+    "src": "assets/gallery/landscape-4.jpg",
+    "title": "Stormy lake"
+  },
+  {
+    "id": 5,
+    "src": "assets/gallery/landscape-5.jpg",
+    "title": "Wild forest"
+  },
+  {
+    "id": 6,
+    "src": "assets/gallery/landscape-6.jpg",
+    "title": "Sunny beach"
+  },
+  {
+    "id": 7,
+    "src": "assets/gallery/landscape-7.jpg",
+    "title": "Pleasing forest"
+  },
+  {
+    "id": 8,
+    "src": "assets/gallery/landscape-8.jpg",
+    "title": "Agrabah desert"
+  }
+]

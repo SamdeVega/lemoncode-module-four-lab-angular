@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Login</h1>
+  <form>
+    <mat-form-field appearance="outline">
+      <mat-label>Username</mat-label>
+      <input matInput required placeholder="Username" name="username" [(ngModel)]="user.username">
+      <mat-hint>master8@lemoncode.net</mat-hint>
+    </mat-form-field>
+    <br />
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input matInput required placeholder="Password" name="password" type="password" [(ngModel)]="user.password">
+      <mat-hint>12345678</mat-hint>
+    </mat-form-field>
+    <br />
+    <button mat-raised-button color="primary" [disabled]="incomplete()" (click)="login()">Login</button>
+  </form>
+</div>

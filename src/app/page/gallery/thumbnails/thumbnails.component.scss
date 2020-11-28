@@ -1,0 +1,36 @@
+.thumbnails {
+  display: inline-block;
+  height: 61px;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  width: 306px;
+}
+.thumbnails li {
+  display: inline-block;
+}
+.thumbnails img {
+  cursor: pointer;
+  filter: saturate(0%);
+  height: auto;
+  padding-right: 2px;
+  transition: filter 0.3s ease-in-out;
+  width: 100px;
+}
+.thumbnails img.current {
+  filter: saturate(100%);
+}
+.thumbnailsControls {
+  margin: -73px auto 0 auto;
+  position: relative;
+  width: 306px;
+}
+.thumbnailsControls .previous {
+  left: -44px;
+  position: absolute;
+}
+.thumbnailsControls .next {
+  right: -42px;
+  position: absolute;
+}

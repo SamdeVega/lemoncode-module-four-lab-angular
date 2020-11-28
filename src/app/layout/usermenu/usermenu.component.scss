@@ -1,0 +1,29 @@
+.mat-icon, span {
+  color: var(--color-accent);
+  cursor: default;
+  padding-right: 0.5rem;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+ul li a {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+ul li a.selected {
+  color: var(--color-accent);
+}
+button a {
+  color: #666666;
+  font-weight: bold;
+  text-decoration: none;
+}

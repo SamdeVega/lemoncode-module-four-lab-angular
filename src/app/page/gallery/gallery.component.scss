@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+}
+.currentPicture {
+  margin: 0 auto;
+  max-height: 658px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+.currentPicture img {
+  height: 100%;
+  width: 100%;
+}
+.currentPicture .title {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  color: #ffffff;
+  font-style: italic;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+.controls {
+  margin-top: 10px;
+}
+.controls button {
+  margin-right: 2px;
+}
